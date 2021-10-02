@@ -1,5 +1,5 @@
 # mediumNoMorePremium
-This script is dedicated to those distracted people like me who don't want to lose their free 5 member-only stories due to missclicks again so to avoid that, the premium elements are blurry to make them stand out
+This script is dedicated to those distracted people like me who don't want to lose the free 5 member-only stories due to missclicks again so to avoid that, the premium elements are blurry to make them stand out
 
 Copy this script, open medium (duh) from **Chrome/Firefox : press <em>ctrl+shift+i</em> or Menu>More Tools>Development Tools** and paste it into the console.
 
