@@ -1,18 +1,1 @@
-const noMorePremium = ()=> {
-	let targetDiv = document.querySelector(".star-15px_svg__svgIcon-use").parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode;
-	let cnDiv = targetDiv.className.replace(/ /g, ".")
-	let elPrem = document.querySelectorAll('.'+ cnDiv);
-	for (let i = 0; i < elPrem.length; i++) {
-		if (elPrem[i].innerHTML.includes("star-15px_svg__svgIcon-use")) {
-			elPrem[i].style.filter = "blur(1px)";
-			elPrem[i].style.opacity = "0.8";
-		}
-		else {
-			elPrem[i].style.borderLeft = "solid";
-			elPrem[i].style.borderColor = "black";
-			elPrem[i].style.borderRadius = "8px";
-		}
-	}
-};
-noMorePremium();
-document.addEventListener("scroll", noMorePremium);
+const noMorePremium=()=>{let e=document.querySelector(".star-15px_svg__svgIcon-use").parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.className.replace(/ /g,"."),r=document.querySelectorAll("."+e);for(let e=0;e<r.length;e++)r[e].innerHTML.includes("star-15px_svg__svgIcon-use")?(r[e].style.filter="blur(1px)",r[e].style.opacity="0.8"):(r[e].style.borderLeft="solid",r[e].style.borderColor="black",r[e].style.borderRadius="8px")};noMorePremium(),document.addEventListener("scroll",noMorePremium);
